@@ -1,0 +1,24 @@
+.Panier {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.Panier Button {
+  margin: 5px;
+}
+.PanierProduct {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.PanierImg {
+  width: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PanierImg img {
+  width: 80%;
+}

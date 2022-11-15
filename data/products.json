@@ -1,0 +1,95 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Mana Bottle",
+      "price": "6$",
+      "description": "restore mana point bottle it restore 100mp for every bottle",
+      "category": "Bottle",
+      "image": "http://localhost/ecommerceApi/image/01_bottle.png",
+      "rating": { "rate": 3.9, "count": 120 }
+    },
+    {
+      "id": 2,
+      "title": "dagger",
+      "price": "150$",
+      "description": "+2 power +5 dammage",
+      "category": "Weapone",
+      "image": "http://localhost/ecommerceApi/image/02_dagger.png",
+      "rating": { "rate": 4.1, "count": 3 }
+    },
+    {
+      "id": 3,
+      "title": "HP bottle",
+      "price": "15$",
+      "description": "restore health point bottle it restore 100hp for every bottle",
+      "category": "Bottle",
+      "image": "http://localhost/ecommerceApi/image/03_bottle.png",
+      "rating": { "rate": 4.7, "count": 500 }
+    },
+    {
+      "id": 4,
+      "title": "comb",
+      "price": "1$",
+      "description": "worthless item used by some woman +1 looks",
+      "category": "Other",
+      "image": "http://localhost/ecommerceApi/image/04_comb.png",
+      "rating": { "rate": 2.1, "count": 430 }
+    },
+    {
+      "id": 5,
+      "title": "legendary sword",
+      "price": "695$",
+      "description": "+50 power +15 dammage +5% speed",
+      "category": "Weapone",
+      "image": "http://localhost/ecommerceApi/image/05_sword.png",
+      "rating": { "rate": 4.6, "count": 1 }
+    },
+    {
+      "id": 6,
+      "title": "Backpack",
+      "price": "100$",
+      "description": "+60 inventory empty slot",
+      "category": "Other",
+      "image": "http://localhost/ecommerceApi/image/06_backpack.png",
+      "rating": { "rate": 3.9, "count": 70 }
+    },
+    {
+      "id": 7,
+      "title": "Lamp",
+      "price": "99.99$",
+      "description": "can be used in dark places with unlimited flame",
+      "category": "Other",
+      "image": "http://localhost/ecommerceApi/image/07_lamp.png",
+      "rating": { "rate": 3, "count": 400 }
+    },
+    {
+      "id": 8,
+      "title": "Money bag",
+      "price": "1000.99$",
+      "description": "magical bag that can keep your money even after death",
+      "category": "Other",
+      "image": "http://localhost/ecommerceApi/image/08_purse.png",
+      "rating": { "rate": 1.9, "count": 100 }
+    },
+    {
+      "id": 9,
+      "title": "freeze spell",
+      "price": "640$",
+      "description": "a magic spell can freeze any water nearby",
+      "category": "Spells",
+      "image": "http://localhost/ecommerceApi/image/22_book.png",
+      "rating": { "rate": 3.3, "count": 203 }
+    },
+    {
+      "id": 10,
+      "title": "health spell",
+      "price": "109$",
+      "description": "restore 5 hp/second and heal other team member",
+      "category": "Spells",
+      "image": "http://localhost/ecommerceApi/image/23_book.png",
+      "rating": { "rate": 2.9, "count": 470 }
+    }
+  ],
+  "categories": ["Bottle", "Spells", "Other", "Weapone"]
+}
