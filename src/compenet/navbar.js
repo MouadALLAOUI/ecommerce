@@ -3,7 +3,6 @@ import { Nav, Button, Container, Form, Navbar, NavDropdown } from 'react-bootstr
 
 function MyNavbar() {
     return (
-
         <header>
             <Navbar bg="light" expand="lg">
                 <Container fluid>
@@ -16,7 +15,7 @@ function MyNavbar() {
                             navbarScroll
                         >
                             <Nav.Link href="/">Acceuil</Nav.Link>
-                            <Nav.Link href="/produit">Produit</Nav.Link>
+                            <Nav.Link href="/produit">Categories</Nav.Link>
                             <Nav.Link href="/Contact">Contact</Nav.Link>
                         </Nav>
                         <Form className="d-flex">

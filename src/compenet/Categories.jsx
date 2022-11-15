@@ -99,7 +99,11 @@ function Categories() {
                                 />
                                 <Card.Body>
                                   <Card.Title style={{ height: "140px" }}>
-                                    {products.title}
+                                    <a
+                                      href={`/Produitdesc?produit=${products.id}`}
+                                    >
+                                      {products.title}
+                                    </a>
                                   </Card.Title>
                                   <Card.Title style={{ color: "red" }}>
                                     {products.price} $

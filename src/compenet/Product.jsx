@@ -36,7 +36,11 @@ function MyProduit() {
                   style={{ margin: "15px", height: "120px", width: "auto" }}
                 />
                 <Card.Body>
-                  <Card.Title>{products.title}</Card.Title>
+                  <Card.Title>
+                    <a href={`/Produitdesc?produit=${products.id}`}>
+                      {products.title}
+                    </a>
+                  </Card.Title>
                   <Card.Title>{products.price}</Card.Title>
                   <Card.Text>description:{products.description}</Card.Text>
                   <Card.Text>category:{products.category}</Card.Text>
